@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package mylinkedlist;
 
-/**
- *
- * @author apple
- */
+
 public class Node {
     Object data;
     Node next;
@@ -28,6 +21,9 @@ public class Node {
     
     public void setNext(Node _next){
         this.next = _next;
+    }
+    public void setData(Object _obj){
+        this.data = _obj;
     }
     
     public String toString(){

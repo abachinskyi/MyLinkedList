@@ -80,7 +80,7 @@ public class MyLinkedList<T> {
     public int size() {
         return listCount;
     }
-    
+
     public Node getHead(){
         return this.head;
     }
@@ -133,6 +133,5 @@ public class MyLinkedList<T> {
         x1.show();
         Node head = x1.revert();
         x1.show();
-        System.out.println(x1.get(0).toString());
     }
 }
