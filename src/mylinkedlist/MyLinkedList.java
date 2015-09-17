@@ -80,16 +80,7 @@ public class MyLinkedList<T> {
     public int size() {
         return listCount;
     }
-
-    /*public String toString() {
-        Node current = head.getNext();
-        String output = "";
-        while (current != null) {
-            output += "[" + current.getData().toString() + "]";
-            current = current.getNext();
-        }
-        return output;
-    }*/
+    
     public Node getHead(){
         return this.head;
     }
